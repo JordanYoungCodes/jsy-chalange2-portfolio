@@ -1,0 +1,116 @@
+header {
+    color:rgb(255, 196, 196);
+    background-color:rgb(48, 38, 38);
+    text-align:center;
+    background-image: radial-gradient(circle, rgb(10, 10, 10), rgb(216, 98, 14));
+    border: 5px solid black;
+}
+.nav1 {
+    text-align: end;
+    padding:10px;
+    list-style-type: none;
+}
+#titleNav {
+    text-decoration: underline;
+    font-size:1.5em;
+    color:rgb(75, 1, 1);
+    padding: 10px
+}
+.mainSite {
+    height: 30em;
+    text-align: center;
+    border:5px solid black;
+    margin-top:1.5em;
+    position:relative;
+    padding-top:10px;
+    background-image: linear-gradient(to right, rgb(1, 8, 97), rgb(6, 59, 158), rgb(4, 124, 145), rgb(4, 207, 221));
+}
+#MS1 {
+    border: 2px solid black;
+    width: 40% ;
+    box-shadow: 5px 5px 3px rgb(54, 54, 54);
+}
+.intro2 {
+    display: inline-flex;
+}
+#propic {
+    width: 200px;
+    margin: 20px 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 3px rgb(54, 54, 54);
+}
+#orm1 {
+    width:50%;
+    height:80%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 3px rgb(54, 54, 54);
+}
+#otherprojects1 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:100%;
+    margin-top:10px;
+    
+    
+}
+.otrpro {
+    margin-top: 2em;
+    border:5px solid black;
+    background-image: linear-gradient(to right, rgb(38, 1, 97), rgb(6, 59, 158), rgb(4, 145, 103), rgb(4, 207, 221));
+}
+
+.op1 {
+    display:flex;
+    min-width: 20em;
+    width: 40%;
+    height:20em;
+    background-color:rgb(247, 191, 123);
+    margin: 2em;
+    border:5px solid black;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(38, 1, 97), rgb(161, 152, 69), rgb(145, 4, 4), rgb(255, 8, 0));
+
+    
+}
+
+.op1item {
+    margin: auto;
+}
+
+.intro {
+    font-size:18px;
+    max-width:70%;
+    margin: auto;
+    padding-top:2em;
+    height:120px
+}
+
+ footer {
+    background-color: rgb(248, 226, 197);
+    height: 20em;
+    margin-top: 2em;
+    border:4px dashed black;
+    align-content: center;
+ }  
+ footer p {
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 1.4em;
+    text-decoration: underline;
+ }
+ 
+ @media screen and (max-width: 480px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0;
+        max-width: 480px;
+        width: 100%;
+        border: 0em;
+        justify-content: center;
+    }
+ }
