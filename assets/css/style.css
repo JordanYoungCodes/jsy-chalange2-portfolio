@@ -1,3 +1,4 @@
+/* this is header formatting*/
 header {
     color:rgb(255, 196, 196);
     background-color:rgb(48, 38, 38);
@@ -5,6 +6,9 @@ header {
     background-image: radial-gradient(circle, rgb(10, 10, 10), rgb(216, 98, 14));
     border: 5px solid black;
 }
+
+/*this styles the navigation links to the right end*/
+
 .nav1 {
     text-align: end;
     padding:10px;
@@ -16,9 +20,10 @@ header {
     color:rgb(75, 1, 1);
     padding: 10px
 }
+/* this is the intro information about myself*/
 
 .intro2 {
-    display: inline-flex;
+    display: flex;
 }
 
 .intro {
@@ -26,8 +31,10 @@ header {
     max-width:70%;
     margin: auto;
     padding-top:2em;
-    height:120px;
+    height:fit-content;
 }
+
+/*this is the formatting for the first and main web project i have done*/
 
 .mainSite {
     display: flex;
@@ -50,12 +57,18 @@ header {
     box-shadow: 5px 5px 3px rgb(54, 54, 54);
 }
 
+/*this is formatting for the intro section*/
+
 #propic {
     width: 200px;
+    height:160px;
     margin: 20px 20px;
     border: 2px solid black;
     box-shadow: 5px 5px 3px rgb(54, 54, 54);
 }
+
+/*this is the formatting for the pictures of the web projects*/
+
 #orm1 {
     width:50%;
     height:auto;
@@ -77,7 +90,7 @@ header {
 }
 
 
-
+/* this is formatting for the other projects section*/
 .op1 {
     display:flex;
     width: 20em;
@@ -98,7 +111,7 @@ header {
 
 
 
-
+/*this is the formatting for the footer when the screen is bigger than 480 px*/
  footer {
     background-color: rgb(248, 226, 197);
     height: 20em;
@@ -115,17 +128,22 @@ header {
     text-decoration: underline;
  }
 
- 
- @media screen and (max-width: 480px) {
+ /*this is formatting for the footer when screen size is for a cell phone. It makes the footer sticky and always at the bottom of the page when scrolling*/
+ @media screen and (max-width: 510px) {
     footer {
         display: flex;
         flex-direction: column;
         position: fixed;
         bottom: 0;
-        max-width: 480px;
         width: 100%;
         border: 0em;
         justify-content: center;
+    }
+    .mediaPlaceHolder {
+        width: auto;
+        height:20em;
+        background-color: aliceblue;
+        display: block;
     }
  }
  
