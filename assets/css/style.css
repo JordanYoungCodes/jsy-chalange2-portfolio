@@ -16,6 +16,19 @@ header {
     color:rgb(75, 1, 1);
     padding: 10px
 }
+
+.intro2 {
+    display: inline-flex;
+}
+
+.intro {
+    font-size:18px;
+    max-width:70%;
+    margin: auto;
+    padding-top:2em;
+    height:120px;
+}
+
 .mainSite {
     display: flex;
     align-items: center;
@@ -25,7 +38,6 @@ header {
     text-align: center;
     border:5px solid black;
     margin-top:1.5em;
-    position:relative;
     padding-top:10px;
     background-image: linear-gradient(to right, rgb(1, 8, 97), rgb(6, 59, 158), rgb(4, 124, 145), rgb(4, 207, 221));
 }
@@ -37,9 +49,7 @@ header {
     width: 40% ;
     box-shadow: 5px 5px 3px rgb(54, 54, 54);
 }
-.intro2 {
-    display: inline-flex;
-}
+
 #propic {
     width: 200px;
     margin: 20px 20px;
@@ -48,7 +58,7 @@ header {
 }
 #orm1 {
     width:50%;
-    height:50%;
+    height:auto;
     margin:auto 7px;
     border: 2px solid black;
     box-shadow: 5px 5px 3px rgb(54, 54, 54);
@@ -58,15 +68,14 @@ header {
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-around;
+    width: screen-width;
     height:100%;
-    margin-top:10px;
+    margin-top:20px;
+    margin-right:2px;
     border:5px solid black;
     background-image: linear-gradient(to right, rgb(38, 1, 97), rgb(6, 59, 158), rgb(4, 145, 103), rgb(4, 207, 221))
 }
 
-.otrpro {
-    display:flex;
-}
 
 
 .op1 {
@@ -74,9 +83,9 @@ header {
     width: 20em;
     height:20em;
     background-color:rgb(247, 191, 123);
-    margin: 2em;
+    margin:5px  auto ;
     border:5px solid black;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-image: linear-gradient(to right, rgb(38, 1, 97), rgb(161, 152, 69), rgb(145, 4, 4), rgb(255, 8, 0));
     min-width: 40%;
     
@@ -87,13 +96,8 @@ header {
     text-align:center;
 }
 
-.intro {
-    font-size:18px;
-    max-width:70%;
-    margin: auto;
-    padding-top:2em;
-    height:120px
-}
+
+
 
  footer {
     background-color: rgb(248, 226, 197);
@@ -101,14 +105,16 @@ header {
     margin-top: 2em;
     border:4px dashed black;
     align-content: center;
- }  
- footer p {
+ } 
+  
+.footp {
     text-align: center;
     font-weight: bolder;
     font-style: oblique;
     font-size: 1.4em;
     text-decoration: underline;
  }
+
  
  @media screen and (max-width: 480px) {
     footer {
