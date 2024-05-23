@@ -17,6 +17,10 @@ header {
     padding: 10px
 }
 .mainSite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 30em;
     text-align: center;
     border:5px solid black;
@@ -26,6 +30,9 @@ header {
     background-image: linear-gradient(to right, rgb(1, 8, 97), rgb(6, 59, 158), rgb(4, 124, 145), rgb(4, 207, 221));
 }
 #MS1 {
+    display: flex;
+    flex-grow:0;
+    max-height:20em;
     border: 2px solid black;
     width: 40% ;
     box-shadow: 5px 5px 3px rgb(54, 54, 54);
