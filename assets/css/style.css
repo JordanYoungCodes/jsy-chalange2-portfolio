@@ -121,3 +121,9 @@ header {
         justify-content: center;
     }
  }
+ 
+ @media screen and (min-width: 1626px) {
+     .mainSite {
+        margin: auto 0; 
+     }
+ }
