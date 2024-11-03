@@ -69,7 +69,7 @@ header {
 
 /*this is the formatting for the pictures of the web projects*/
 
-#orm1 {
+.orm1 {
     width:50%;
     height:auto;
     margin:auto 7px;
@@ -96,7 +96,7 @@ header {
     width: 20em;
     height:20em;
     background-color:rgb(247, 191, 123);
-    margin:5px  auto ;
+    margin:20px  auto ;
     border:5px solid black;
     justify-content: space-around;
     background-image: linear-gradient(to right, rgb(38, 1, 97), rgb(161, 152, 69), rgb(145, 4, 4), rgb(255, 8, 0));
@@ -146,4 +146,27 @@ header {
         display: block;
     }
  }
+
+
+ @keyframes shine {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+.silver-gradient {
+    background: linear-gradient(
+        135deg,
+        #a9fcce,
+        #c0c0c0,
+        #95cddb,
+        #dbd6f8,
+        #eff3c3,
+        #a59cd1
+    );
+    background-size: 400% 400%;
+    animation: shine 3s infinite alternate;
+    border-radius: 8px;
+    color: #333;
+    text-align: center;
+}
  
