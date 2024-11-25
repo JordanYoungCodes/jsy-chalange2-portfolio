@@ -1,9 +1,9 @@
 /* this is header formatting*/
 header {
-    color:rgb(255, 196, 196);
+    color:rgb(46, 0, 253);
     background-color:rgb(48, 38, 38);
     text-align:center;
-    background-image: radial-gradient(circle, rgb(10, 10, 10), rgb(216, 98, 14));
+    background-image: radial-gradient(circle, rgb(76, 228, 255), rgb(21, 75, 255));
     border: 5px solid black;
 }
 
