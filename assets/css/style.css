@@ -128,6 +128,54 @@ header {
     text-decoration: underline;
  }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    max-height: 22px;
+    border: 2px solid black;
+    padding: 6px 20px;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(1, 1, 139);
+  }
+  
+.tt2 {
+    margin-left: 85%;
+}
+
+.tt3 {
+    margin-top: 280px;
+    margin-right: 4px;
+}
+
+
+
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 140px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    bottom: 125%; /* adjust placement */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
  /*this is formatting for the footer when screen size is for a cell phone. It makes the footer sticky and always at the bottom of the page when scrolling*/
  @media screen and (max-width: 510px) {
     footer {
